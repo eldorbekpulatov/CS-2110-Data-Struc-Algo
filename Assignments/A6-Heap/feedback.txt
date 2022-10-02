@@ -1,0 +1,392 @@
+Grading Comment: Submitted by djg17 on April 20, 2017 08:52AM
+Executing Testing Method test00Add
+Test adding 3 values with increasing priorities: (5, 5.0), (7, 7.0), (8, 8.0).
+Testing m.add(5, 5.0) caused no error
+Testing m.add(7, 7.0) caused no error
+Testing m.add(8, 8.0) caused no error
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [5, 7, 8]....[5, 7, 8]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 10.00 out of 10.00 tests
+Test method test00Add score: 8.00 out of 8.00
+
+Executing Testing Method test01AddException
+Testing add throwing the exception
+Passed 1.00 out of 1.00 tests
+Test method test01AddException score: 2.00 out of 2.00
+
+Executing Testing Method test10ensureSpace
+Test adding a element to a heap with size 10 and capacity 10
+Testing Calling add(11, 11) should double the length
+Testing length of c should be 20
+Testing Calling add(12, 12) should not change length
+Testing length of c should be 20
+Passed 4.00 out of 4.00 tests
+Test method test10ensureSpace score: 10.00 out of 10.00
+
+Executing Testing Method test13Add_Swap
+Test procedure swap. Only the final result of 4 calls is checked
+Testing Swapping 0 and 1 did not cause an error
+Testing Swapping 1 and 2 did not cause an error
+Testing Swapping 0 and 3 did not cause an error
+Testing Swapping 2 and 2 did not cause an error
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [9, 8, 5, 7]....[9, 8, 5, 7]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 12.00 out of 12.00 tests
+Test method test13Add_Swap score: 7.00 out of 7.00
+
+Executing Testing Method test15Add_BubbleUp
+Test add and bubbleUp with no duplicates. In this test, values are used as priorities.
+Testing Adding 5 to heap [3, 6, 8]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [3, 5, 8, 6]....[3, 5, 8, 6]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Adding 4 to heap [3, 5, 6, 8]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [3, 4, 8, 6, 5]....[3, 4, 8, 6, 5]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Adding 5 to heap [3, 6, 8]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [3, 5, 8, 6]....[3, 5, 8, 6]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Adding 4 to heap [3, 5, 6, 8]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [3, 4, 6, 8, 5]....[3, 4, 6, 8, 5]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Adding 1 to heap [3, 4, 8, 6, 5]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [1, 4, 3, 6, 5, 8]....[1, 4, 3, 6, 5, 8]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 49.00 out of 49.00 tests
+Test method test15Add_BubbleUp score: 10.00 out of 10.00
+
+Executing Testing Method test17Add_BubbleUpDuplicatePriorities
+Test add and bubbleUp with duplicates.
+Testing Adding (2, 4.0) to heap []
+Testing getting value c[0]
+Testing getting value c[1]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [4, 2]....[4, 2]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Adding (1, 4.0) to heap [4,2] --all priorities 4.0
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [4, 2, 1]....[4, 2, 1]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Adding (2, 4.0) to heap []
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [4, 2, 1, 0]....[4, 2, 1, 0]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 24.00 out of 24.00 tests
+Test method test17Add_BubbleUpDuplicatePriorities score: 8.00 out of 8.00
+
+Executing Testing Method test20Peek
+Test peek.
+Testing peek on heap [1, 3] --values are priorities
+Testing getting value c[0]
+Testing getting value c[1]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [1, 3]....[1, 3]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing peek throwing a HeapException
+Passed 8.00 out of 8.00 tests
+Test method test20Peek score: 6.00 out of 6.00
+
+Executing Testing Method test30Poll_BubbleDown_NoDups
+Test polling from heap [5].
+Testing
+Testing that heap and map sizes are correct
+Testing that heap values are correct: []....[]
+Testing that heap priorities are correct
+Testing that map is correct
+Test polling from heap [5, 6].
+Testing
+Testing getting value c[0]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [6]....[6]
+Testing that heap priorities are correct
+Testing that map is correct
+Test polling from heap [4, 5, 6, 7, 8, 9], requires using left child.
+Testing
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [5, 7, 6, 9, 8]....[5, 7, 6, 9, 8]
+Testing that heap priorities are correct
+Testing that map is correct
+Test polling from heap [4, 6, 5, 7, 8, 9], requires using left child.
+Testing
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [5, 6, 9, 7, 8]....[5, 6, 9, 7, 8]
+Testing that heap priorities are correct
+Testing that map is correct
+Test polling from heap [4, 5, 6, 7, 8], requires bubbling down when only one child.
+Testing
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [5, 7, 6, 8]....[5, 7, 6, 8]
+Testing that heap priorities are correct
+Testing that map is correct
+Test polling from heap [2, 4, 3, 6, 7, 8, 9]
+Testing
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [3, 4, 8, 6, 7, 9]....[3, 4, 8, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Test polling from heap [2, 4, 3, 6, 7, 9, 8]
+Testing
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [3, 4, 8, 6, 7, 9]....[3, 4, 8, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 62.00 out of 62.00 tests
+Test method test30Poll_BubbleDown_NoDups score: 11.00 out of 11.00
+
+Executing Testing Method test33PollException
+Testing poll throwing a NoSuchElementException
+Passed 1.00 out of 1.00 tests
+Test method test33PollException score: 2.00 out of 2.00
+
+Executing Testing Method test40testDuplicatePriorities
+Testing adding (5, 4.0) to heap [(4, 4.0)]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [6, 5]....[6, 5]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing adding (5, 4.0) to heap [(4, 4.0)]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [7, 6, 3]....[7, 6, 3]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing adding (5, 4.0) to heap [(4, 4.0)]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [7, 6]....[7, 6]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing adding (5, 4.0) to heap [(4, 4.0)]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [8, 7, 6]....[8, 7, 6]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 30.00 out of 30.00 tests
+Test method test40testDuplicatePriorities score: 9.00 out of 9.00
+
+Executing Testing Method test50ChangePriority
+Testing Change priority of 5 to 4 in [1, 2, 3, 5, 6, 7, 9]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing getting value c[6]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [1, 2, 3, 5, 6, 7, 9]....[1, 2, 3, 5, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Change priority of 2 to 1 in [1, 2, 3, 5, 6, 7, 9]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing getting value c[6]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [1, 2, 3, 5, 6, 7, 9]....[1, 2, 3, 5, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Change priority of 5 to 1 in [1, 2, 3, 5, 6, 7, 9]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing getting value c[6]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [1, 5, 3, 2, 6, 7, 9]....[1, 5, 3, 2, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Change priority of 2 to 5 in [1, 2, 3, 5, 6, 7, 9]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing getting value c[6]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [1, 2, 3, 5, 6, 7, 9]....[1, 2, 3, 5, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Change priority of 2 to 6 in [1, 2, 3, 5, 6, 7, 9]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing getting value c[6]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [1, 5, 3, 2, 6, 7, 9]....[1, 5, 3, 2, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Change priority of 1 to 7 in [1, 2, 3, 5, 6, 7, 9]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing getting value c[3]
+Testing getting value c[4]
+Testing getting value c[5]
+Testing getting value c[6]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [2, 5, 3, 1, 6, 7, 9]....[2, 5, 3, 1, 6, 7, 9]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 72.00 out of 72.00 tests
+Test method test50ChangePriority score: 10.00 out of 10.00
+
+Executing Testing Method test53ChangePriorityException
+Testing poll throwing an IllegalArgumentException
+Passed 1.00 out of 1.00 tests
+Test method test53ChangePriorityException score: 2.00 out of 2.00
+
+Executing Testing Method test70Strings
+Testing that heap and map sizes are correct
+Testing that heap values are correct: []....[]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Add (abc, 5) to empty heap
+Testing getting value c[0]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [abc]....[abc]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Add (null, 3) to heap [(abc, 5)]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [null, abc]....[null, abc]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Add ("", 2) to heap [(abc, 5), (null, 3)]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing getting value c[2]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [, abc, null]....[, abc, null]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing
+Testing getting value c[0]
+Testing getting value c[1]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [null, abc]....[null, abc]
+Testing that heap priorities are correct
+Testing that map is correct
+Testing Change priority of null to 7 in [(null, 3), "abc", 5)]
+Testing getting value c[0]
+Testing getting value c[1]
+Testing that heap and map sizes are correct
+Testing that heap values are correct: [abc, null]....[abc, null]
+Testing that heap priorities are correct
+Testing that map is correct
+Passed 39.00 out of 39.00 tests
+Test method test70Strings score: 5.00 out of 5.00
+
+Executing Testing Method test90BigTests
+Create a heap with values 0..1000 and random integer priorities with duplicates.
+Poll all values and make sure they are in order of priority.
+This is not a complete test but it does give some assurance of correctness.
+Passed 502.00 out of 502.00 tests
+Test method test90BigTests score: 10.00 out of 10.00
+
+Total Score: 100.00 out of 100.00
+
+
+Grading Comment: Submitted by ag983 on April 28, 2017 10:53PM
+Congratulations. Your method satisfy the timing requirements
+in the specifications.

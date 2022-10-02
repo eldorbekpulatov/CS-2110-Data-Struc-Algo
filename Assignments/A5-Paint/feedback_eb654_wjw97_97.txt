@@ -1,0 +1,58 @@
+This is Edward Li, grading your assignment A5.
+The grading is based on whether each of the functions you were supposed to implement
+works the way it is supposed to work. Before I start, I'll check your ReadMe file
+to see whether there are special circumstances for me to watch out for.
+
+
+Table of deductions:
+Total                100
+Deduction 3
+Total                97
+
+COMMENTS.
+
+
+README FILE
+2. Deduction 0. The README.txt file is supposed to be a text file, but the first lines
+in it are some sort of formatting information. Please learn to use a straight-text file
+with no formatting.
+
+3. Deduction 0. Thanks for letting me know about the issues you had with the assignment.
+[say whatever you want to say, based on the feedback they gave.]
+
+
+STATUS BAR
+
+
+COLORING TOOLS
+3. Deduction 1. If the user clicks the foreground color button and then hits the
+cancel button in the dialog window, an error message appears. If the user cancels and
+JColorChooser.showDialog returns null, nothing should happen.
+
+5. Deduction 1. If the user clicks the background color button and then hits the
+cancel button in the dialog window, an error message appears. If the user cancels and
+JColorChooser.showDialog returns null, nothing should happen.
+
+MOUSE PRESS
+
+
+MOUSE DRAG
+PENCIL
+
+ERASER
+
+AIRBRUSH
+2. Deduction 0. GREAT! you managed to draw a real line from the first to
+the last point, filled with random point! I know this is not easy, but
+you did it!
+
+LINE TOOL
+5. Deduction 1. When drawing with the LINE tool, the red "SAVED" appears after only the
+first click ---it shouldn't, because the user could click once and then change the tool
+and nothing would be drawn.
+
+CIRCLE TOOL
+
+MENU BAR
+
+

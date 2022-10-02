@@ -1,0 +1,57 @@
+Grading Comment: Submitted by djg17 on May 3, 2017 07:18AM
+Hello, this is gries (djg17) grading your A7.
+
+No errors --passed all our test cases.
+I'll to see how well the grading guidelines are followed.
+
+1. Deduction 0. Thanks for giving a comment on newHashMap. Why that funny name?
+Why say in the name that it is a hashMap? What about calling it simply map, or sf?
+
+You say that it "stores" things. Does you closet "store" clothes?
+No, it CONTAINS the clothes that YOU store in it.
+
+I never say "this data structure stores ..." because it's bad English. Although
+I know I a fighting a losing battle.
+
+
+2. Deduction 0. Why do this:
+
+SFdata l= new SFdata(0, null);
+newHashMap.put(start, l);
+
+when you can do this?
+
+newHashMap.put(start, new SFdata(0, null));
+
+
+3. Deduction 1. Here's quote from the grading guidelines. You should have used w instead
+of node1.
+
+"A. You are implementing the abstract algorithm given in Piazza note @1815.
+Your implementation should be as close as possible to the abstract algorithm in
+terms of structure and variable names.
+For example, the names F, f, and w should be used, since the variables appear in
+both the abstract algorithm and its implementation."
+
+4. Deduction 3. The expression newHashMap.get(node1) 4, 5, 6 times. the following
+assignment should have been placed just after the assignment to node1 and then variable
+wData can replace all those expression.
+
+SFdata wData= newHashMap.get(node1);
+
+
+5. Deduction 4. You placed the body in a try-statement. Why is it there? If a null-pointer
+exception happens, there is a real error some place. The use of the try-catch means you
+don't get to see the error. Don't do things like this, please.
+
+
+6. Deduction 1. The call newHashMap.get(f).distance appears within the lop over the
+neighbors, but nothing changes and it always produces the same result. It should have been
+called once before this loop.
+
+Grade: 91
+
+Many people are receiving such deductions for not following the grading guidelines
+carefully enough.
+
+David Gries

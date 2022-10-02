@@ -1,0 +1,113 @@
+Hello, this is GRIES grading your A8
+
+A8 is graded by running your mySpaceship on a number of maps and first checking that
+you successfully find the downed spaceship and return to Earth on each map.Then we
+compare your score to our benchmark score to ensure that you returned to Earth fast enough
+to demonstrate your piloting (and coding) competenceThe correctness of your solution is worth 85%
+and the score is worth 15% of your grade on A8.
+The results of running your spaceship on random maps are shown in the table below.
+
+
+Test Results...(75 maps tested)
+Seed..................Rescue.....Return.....Score....Basic....Benchmark
+                1285  Success    Success    3814.0   6166.0   3322.5   
+                1244  Success    Success    744.0    2070.0   1528.6666666666667
+ 2962829435895155712  Success    Success    3040.0   11232.0  3437.2559523809523
+-4247961830044053756  Success    Success    2186.0   1502.0   1502.0   
+  265883212937344130  Success    Success    946.0    2062.0   2062.0   
+ 2452434607627948348  Success    Success    3875.0   1910.0   1712.0   
+-1242864648381848701  Success    Success    1744.0   4301.0   3123.0   
+ 6840365338197923069  Success    Success    2248.0   8013.0   3238.97619047619
+-5307979063702394383  Success    Success    2205.0   8207.0   3185.3333333333335
+-1567032482309186675  Success    Success    4065.0   1779.0   1718.6666666666667
+ 3741690104666950729  Success    Success    2328.0   12731.0  1140.0   
+-2647083373358498348  Success    Success    1050.0   4384.0   2913.0   
+-5474969324347768260  Success    Success    2313.0   14170.0  1437.0   
+-7692633721051341284  Success    Success    3142.0   3473.0   1860.8333333333335
+ 4024958397529966622  Success    Success    2036.0   7417.0   1752.0   
+-5605014231430827496  Success    Success    416.0    6555.0   3948.0   
+-2537536574140554621  Success    Success    2161.0   1206.0   1115.0   
+ -467320005459105497  Success    Success    2616.0   24714.0  1060.0   
+-8782665958272337881  Success    Success    324.0    9064.0   1216.0   
+ 7260895334680867545  Success    Success    260.0    3068.0   2053.0   
+  129529923830179342  Success    Success    2751.0   2000.0   2084.8333333333335
+-6534354164263523919  Success    Success    2930.0   428.0    428.0    
+ 9152414984477766124  Success    Success    3650.0   4435.0   2915.404761904762
+ 9099682651352327724  Success    Success    1792.0   5154.0   2200.0   
+-7819116788465008954  Success    Success    3634.0   7174.0   1984.0   
+-5680004997881332222  Success    Success    2648.0   3108.0   1720.0   
+ 8049182283953432536  Success    Success    558.0    2613.0   2471.0   
+ 6207130181579109291  Success    Success    2783.0   9802.0   2602.0   
+-5829418617669081671  Success    Success    2960.0   10804.0  806.0    
+-4459477523228485084  Success    Success    1554.0   3710.0   3167.0   
+ 5068927217256047037  Success    Success    1836.0   2702.0   2702.0   
+-6485545478888132366  Success    Success    1673.0   5174.0   4295.0   
+  202953644099591066  Success    Success    3817.0   1182.0   1182.0   
+-4623734561330037657  Success    Success    1308.0   584.0    584.0    
+ 7072776547151824205  Success    Success    2184.0   8413.0   2183.0   
+ 4797635235310919203  Success    Success    4096.0   7119.0   614.0    
+ -370531672857413314  Success    Success    912.0    586.0    586.0    
+ 5784900935341863389  Success    Success    542.0    9118.0   2823.9285714285716
+ 7952300945227099810  Success    Success    2271.66666666666651506.0   1506.0   
+ 7358677567610876515  Success    Success    1342.0   10711.0  2580.0   
+-3657685267757330400  Success    Success    4073.0   1748.0   1748.0   
+ 2259574548099590879  Success    Success    3696.6428571428573820.0    820.0    
+ 5646149046354335926  Success    Success    1112.0   3413.0   2200.0   
+  339190706376800347  Success    Success    1816.0   12986.0  1684.0   
+ 4977976987885984478  Success    Success    3590.0   2554.0   2546.0   
+ 6249671341631741830  Success    Success    12391.0  9468.0   734.0    
+-2263335574132894228  Success    Success    4590.0   7471.0   2265.1666666666665
+-7765717392407381320  Success    Success    2336.0   4807.0   4860.0   
+-6798028539032388167  Success    Success    704.0    1516.0   954.0    
+ 7998310851423192115  Success    Success    2530.0   23877.0  1239.0   
+-4252634160415778683  Success    Success    2357.0   1070.0   1020.0   
+-8448857250461482837  Success    Success    452.0    3548.0   2869.0   
+ 8687278100630329113  Success    Success    1600.0   8689.0   2182.5   
+-5717723887222206969  Success    Success    3958.0   4984.0   3188.5   
+ 7127328792576084780  Success    Success    1838.0   11049.0  2280.0   
+-7538882579791504791  Success    Success    2557.0   10813.0  4284.880952380952
+ 5598478011469733895  Success    Success    2962.66666666666652194.0   2194.0   
+ 5806545378246772587  Success    Success    810.0    16787.0  2376.5   
+ 2453293000901359979  Success    Success    1634.0   5157.0   1386.0   
+ 4830062247176633772  Success    Success    1954.0   20984.0  1048.0   
+ 9149803370327841970  Success    Success    3851.0   3401.0   3194.0   
+ 1233484099614422154  Success    Success    2452.0   866.0    866.0    
+ 2924270469186963507  Success    Success    5098.8333333333334384.0   3417.0   
+ 4010681344870740528  Success    Success    3776.0   264.0    264.0    
+ 3813817133271031019  Success    Success    3212.0   5765.0   910.0    
+-5347883131782232110  Success    Success    1040.0   10086.0  2199.1666666666665
+ -529267083070669224  Success    Success    2328.0   2824.0   2871.0   
+-1887804787452490185  Success    Success    1274.0   33533.0  4281.2619047619055
+ 4938008901942676648  Success    Success    412.0    448.0    448.0    
+ 7298772497023379063  Success    Success    3516.0   4070.0   804.0    
+ -722383347832513261  Success    Success    1532.0   696.0    696.0    
+-6804833481388866810  Success    Success    3891.1666666666675103.0   2374.0   
+ 5915058369778472068  Success    Success    2222.0   16439.0  3859.2083333333335
+ 5366760778616569072  Success    Success    2603.0   2513.0   3098.0   
+ 3745318483050940542  Success    Success    1251.0   3002.0   894.0    
+
+
+Testing rescue...
+Hand-picked maps
+    No errors
+Random maps
+     No errors
+RESCUE correctness score: 45.0 / 45
+
+
+Testing return...
+    -5: RETURN failed on seed 6959329825753121476
+    -5: RETURN failed on seed 6065792316884078200
+Random maps
+     No errors
+RETURN correctness score: 30.0 / 40
+
+
+
+
+Correctness:         75.0 / 85
+Beat basic solution:  5.0 /  5
+Optimization:        10.0 / 10
+
+Congratulations! Your score was high enough to earn a bonus! +2 points
+Total Weighted Grade: 92.0% of 100.0%

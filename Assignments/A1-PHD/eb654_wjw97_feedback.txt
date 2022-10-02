@@ -1,0 +1,160 @@
+This is gries, grading your A1. Below is the grading table. The grade for
+correctness comes by truncating (not rounding) the grade given by the grading
+program at the end of this file.
+After the grading table are my comments and then the output of the grading program.
+Please note that more points may be deducted in special cases, e.g. syntax errors
+cause your submission not to compile.
+
+Correctness, by grading program                        49 out of  55
+(a) Lines short enough, blanks before methods:         05 out of  05
+(b) Class invariant:                                   10 out of  10
+(c) Method names, parameters:                          05 out of  05
+(d) Specifications complete, used Javadoc comments:    10 out of  10
+(e) Assert statements --checked by grading program:
+(f) Checked javadoc:                                   05 out of  05
+(g) Testing methods:                                   10 out of  10
+Total:                                                 94   out of 100
+Deductions: 0 
+Total: 94
+
+GENERAL FORMAT, CLASS INVARIANT, METHOD SPECIFICATIONS, JAVADOC
+
+
+Thanks for putting in the class invariant and method specifications so well. They help!
+
+
+COMMENTS ON AREPHDSIBLINGS
+ The spec we gave of arePhDSiblings says to return false
+   if p is null. Your function gave a null-pointer exception or an assert exception
+   when p was null.
+
+TESTING PRECONDITIONS
+ You did not test some preconditions properly, (e.g. what if adv1 and adv2 are same for constructor 3?) 
+
+ In the constructors, you use   assert n instanceOf String;   While this works, there
+    is a simpler way to make this test. Because Java has strong typing, the ONLY way
+    parameter n will NOT be of type String is when the argument is null. So the preferred
+    way of writing this is:    assert n != null;
+
+
+Executing Testing Method test01Constructor1
+Testing Constructor 1: getName() .
+Testing Constructor 1: isMale() .
+Testing Constructor 1: getYear() .
+Testing Constructor 1: getMonth() .
+Testing Constructor 1: advisor1() .
+Testing Constructor 1: advisor2() .
+Testing Constructor 1: numAdvises() .
+Testing Constructor 1: numAdvises() of parent .
+Passed 8.00 out of 8.00 tests
+Test method test01Constructor1 score: 6.00 out of 6.00
+
+Executing Testing Method test04Setters
+Testing Testing setAdvisor1: advisor1(). 
+Testing Testing setAdvisor1: numAdvises(). 
+Testing Testing setAdvisor1: advisor1.advisor1(). 
+Testing Testing setAdvisor1: advisor1.numAdvisees(). 
+Testing Testing setAdvisor1: advisor1.numAdvises(). 
+Testing Testing setAdvisor2: advisor2(). 
+Testing Testing setAdvisor2: numAdvises(). 
+Testing Testing setAdvisor2: advisor2.advisor2. 
+Testing Testing setAdvisor2: advisor2.numAdvises(). 
+Testing Testing setAdvisor2:  advisor2.numAdvises(). 
+Passed 10.00 out of 10.00 tests
+Test method test04Setters score: 16.00 out of 16.00
+
+Executing Testing Method test07Constructor2
+Testing Constructor 2: getName(). 
+Testing Constructor 2: isMale(). 
+Testing Constructor 2: getYear(). 
+Testing Constructor 2: getMonth(). 
+Testing Constructor 2: advisor1(). 
+Testing Constructor 2: advisor2(). 
+Testing Constructor 2: numAdvises(). 
+Testing Constructor 2: advisor1.numAdvises(). 
+    Test failed.  Expected result to be 1 but got 0
+Testing Constructor 2: advisor1.numAdvises(). 
+    Test failed.  Expected result to be 2 but got 0
+Passed 7.00 out of 9.00 tests
+Test method test07Constructor2 score: 5.44 out of 7.00
+
+Executing Testing Method test10Constructor3
+Testing Constructor 3: getName(). 
+Testing Constructor 3: isFemale(). 
+Testing Constructor 3: getYear(). 
+Testing Constructor 3: getMonth(). 
+Testing Constructor 3: advisor1(). 
+Testing Constructor 3: advisor2(). 
+Testing Constructor 3: numAdvises(). 
+Testing Constructor 3: advisor1.numAdvises(). 
+    Test failed.  Expected result to be 1 but got 0
+Testing Constructor 3: advisor2.numAdvises(). 
+    Test failed.  Expected result to be 1 but got 0
+Testing Constructor 3: advisor1.numAdvises(). 
+    Test failed.  Expected result to be 2 but got 0
+Testing Constructor 3: advisor2.numAdvises(). 
+    Test failed.  Expected result to be 2 but got 0
+Passed 7.00 out of 11.00 tests
+Test method test10Constructor3 score: 4.45 out of 7.00
+
+Executing Testing Method test13gotBefore
+Testing same year. 
+Testing same year, this month before p's. 
+Testing same year, this month after p's. 
+Testing this year before, same month. 
+Testing this year before, this month before. 
+Testing this year before, this month after. 
+Testing this year after, same month. 
+Testing this year after, this month after. 
+Testing this year after, this month before. 
+Passed 9.00 out of 9.00 tests
+Test method test13gotBefore score: 7.00 out of 7.00
+
+Executing Testing Method test16arePHDSiblings
+Testing this.arePHDSiblings(null). 
+    Execution resulted in uncaught throwable java.lang.AssertionError: Invalid PHD recipient received.
+Testing a1.arePHDSiblings(a1). 
+Testing neither has an advisor. 
+Testing adv1 and adv1. 
+Testing adv1 and adv2. 
+Testing adv2 and adv1. 
+Testing adv2 and adv2. 
+Testing both have advisors, none in common. 
+Passed 7.00 out of 8.00 tests
+Test method test16arePHDSiblings score: 6.13 out of 7.00
+
+Executing Testing Method test20Asserts
+Testing Test constructor 1 with null name.
+Testing Test constructor 1 with name "". 
+Testing Test constructor 1 with month < 1. 
+Testing Test constructor 1 with 12 < month. 
+Testing Test constructor 1 with gender 'M'. 
+Testing Test constructor 1 with gender 'F'. 
+Testing Test advisor1(null). 
+Testing Test advisor1() with non-null advisor1. 
+Testing Test advisor2() with advisor1 null.
+Testing Test advisor2() with advisor2 not null.
+Testing Test advisor2(null). 
+Testing Test advisor2(p) with p == advisor1. 
+Testing Test constructor 2 with null name. 
+Testing Test constructor 2 with name "". 
+Testing Test constructor 2 with month < 1. 
+Testing Test constructor 2 with 12 < month. 
+Testing Test constructor 2 with gender 'M'. 
+Testing Test constructor 2 with gender 'F'. 
+Testing Test constructor 2 with adv1 null. 
+Testing Test constructor 3 with null name. 
+Testing Test constructor 3 with name "". 
+Testing Test constructor 3 with month < 1. 
+Testing Test constructor 3 with 12 < month. 
+Testing Test constructor 3 with gender 'M'. 
+Testing Test constructor 3 with gender 'F'. 
+Testing Test constructor 3 with adv1 null. 
+Testing Test constructor 3 with adv2 null. 
+Testing Test constructor 3 with adv1 = adv2. 
+    Execution did not result in expected throwable java.lang.AssertionError
+Testing Test gotBefore(null). 
+Passed 28.00 out of 29.00 tests
+Test method test20Asserts score: 4.83 out of 5.00
+
+Total Score: 49.85 out of 55.00
